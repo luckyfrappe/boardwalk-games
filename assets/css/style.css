@@ -9,8 +9,7 @@
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --highlight-color: #7a9fc2; /* blue */
 }
 
 /* Global styles */
@@ -26,7 +25,7 @@ h3 {
     color: var(--primary-color);
 }
 
-.sub-heading-color {
+.sub-heading-color { 
     color: var(--highlight-color);
 }
 
