@@ -318,6 +318,51 @@
         </div>
       </section>
 
+      <!-- Booking inquiry form section -->
+      <section id="booking-form" class="container section">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <h2 class="display-6">Reserve a game</h2>
+            <form action="success.html" method="get">
+              <div class="row text-start">
+                <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.</p>
+                <div class="col-12 col-lg-4 mb-3">
+                  <label for="name" class="form-label">Full name</label>
+                  <input class="form-control" id="name" type="text" required/>
+                </div>
+                <div class="col-12 col-lg-4 mb-3">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input class="form-control" id="phone" type="number" required/>
+                </div>
+                <div class="col-12 col-lg-4 mb-3">
+                  <label for="email" class="form-label">Emai address</label>
+                  <input class="form-control" id="email" type="email" required/>
+                </div>
+                <div class="col-12 col-lg-8 mb-3">
+                  <label for="event-type" class="form-label">Game selection dropdown menu</label>
+                  <select id="event-type" class="form-select" required">
+                    <option value="" selected>Select game</option>
+                    <option value="regular-play">Galaxy Pioneers</option>
+                    <option value="dnd">Mystic Woods</option>
+                    <option value="retro-night">Captain's Gambit</option>
+                    <option value="tournament">Critter Quest</option>
+                    <option value="kids-party">Setters of Catan</option>
+                    <option value="kids-party">Monopoly</option>
+                    <option value="kids-party">Exploding Kittens</option>
+                    <option value="kids-party">Cluedo</option>
+                  </select>
+                </div>
+                <div class="col-12 col-lg-4 mb-3">
+                  <label for="email" class="form-label">Requested date</label>
+                  <input class="form-control" id="email" type="date" required/>
+                </div>
+              </div>
+              <div class="col-12 text-end"><button type="submit" class="btn custom-button-outline">Submit</button></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
     </main>
         <!-- Footer / contact section -->
     <footer id="contact" class="mt-auto">
