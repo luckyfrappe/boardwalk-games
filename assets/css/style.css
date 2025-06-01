@@ -8,7 +8,7 @@
   --secondary-font: "Macondo", cursive;
   --primary-color: #3a2620; /* dark brown */
   --secondary-color: #aa9581; /* light brown */
-  --highlight-color: #7a9fc2; /* blue */
+  --highlight-color: #5b738b; /* blue */
   --highlight-color-light: #b0c4de; /* light blue */
 }
 
@@ -93,6 +93,15 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+
+/* Events */
+
+#student {
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 10px 20px;
+}
+
 
 /* New games section */
 
